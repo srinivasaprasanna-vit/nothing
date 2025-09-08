@@ -46,7 +46,7 @@ print("Sort resverse true:",L8)
 #List comprehension
 
 list = []
-for x in range(21):
+for x in range(1,21,3):
     list.append(x)
     if x%2==0:
         print(f"x={x} is even")
