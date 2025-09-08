@@ -42,3 +42,13 @@ L8.sort()
 print("Sort:",L8)
 L8.sort(reverse=True)
 print("Sort resverse true:",L8)
+
+#List comprehension
+
+list = []
+for x in range(21):
+    list.append(x)
+    if x%2==0:
+        print(f"x={x} is even")
+    else:
+        print(f"x={x} is odd")
