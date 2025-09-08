@@ -55,3 +55,5 @@ for x in range(1,21,3):
 
 lt=[x+2 for x in range(2,40,8)]
 print("list by using for one liner" ,lt)
+
+print("len:",len(lt))
