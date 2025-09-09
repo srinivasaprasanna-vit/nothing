@@ -1,3 +1,5 @@
+
+
 L1 = []
 print("Blank List: ", L1)
 
@@ -57,3 +59,13 @@ lt=[x+2 for x in range(2,40,8)]
 print("list by using for one liner" ,lt)
 
 print("len:",len(lt))
+
+
+
+#nested list
+x=["akshay","rahul",['gowtham','nair','kumar']]
+print(x)
+
+print(x[2])
+
+print(x[2][1])
