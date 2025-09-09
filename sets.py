@@ -14,3 +14,6 @@ print(m)
 
 m.remove(1)
 print(m)
+
+m.discard("ho")
+print(m)
