@@ -10,8 +10,12 @@ t+=(3,4)
 print("Tuple:" ,t)
 print("Max value:",max(t))'''
 
-
+'''
 a=(1,2,3)
 b=('A','B','C')
 c=zip(a,b)
-print(tuple(c))
+print(tuple(c))'''
+
+
+s = {i+j for i in range(3) for j in range(3) if i*j ==0}
+print(s)
