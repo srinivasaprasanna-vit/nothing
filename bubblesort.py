@@ -1,4 +1,4 @@
-ar=[135,325,2512,123,12,45,78,90,23]
+ar=[78,12,90,23]
 
 def bubble(ar):
     n=len(ar)
@@ -8,3 +8,4 @@ def bubble(ar):
                 ar[j],ar[j+1]=ar[j+1],ar[j]
     return ar
 print(bubble(ar))
+
