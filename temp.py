@@ -1,18 +1,22 @@
 t=input()
+
 l=[]
 for i in t:
    if i!=" ":
        l.append(int(i))
 
-print('List1: ',l)
+print('List1:',l)
 r=int(input())
-l.remove(r)
-print('List after removal: ',l)
+
+try:
+    l.remove(r)
+    print('List after removal: ',l)
+except:
+    print("Element not found in the list")
+
+
 a=input()
-l2=[]
 for i in a:
     if i!=" ":
-        l2.append(int(i))
-print(l2)
-l.extend(l2)
-print('Final List: ',l)
+        l.append(int(i))
+print("Final List: ",l)
