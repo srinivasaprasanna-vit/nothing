@@ -2,8 +2,11 @@ t=input()
 
 l=[]
 for i in t:
-   if i!=" ":
-       l.append(int(i))
+    tmp=""
+    if i!=" ":
+        tmp+=i
+        l.append(int(tmp))
+
 
 print('List1:',l)
 r=int(input())
