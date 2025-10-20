@@ -45,6 +45,7 @@ print("Sort:",L8)
 L8.sort(reverse=True)
 print("Sort resverse true:",L8)
 
+
 #List comprehension
 
 list = []
@@ -62,7 +63,9 @@ print("len:",len(lt))
 
 
 
+
 #nested list
+
 x=["akshay","rahul",['gowtham','nair','kumar']]
 print(x)
 
