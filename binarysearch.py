@@ -10,6 +10,5 @@ def binary_search(arr, key):
         else:
             high = mid - 1
     return False
-
 materials = ["Aluminum", "Brass", "Copper", "Steel", "Titanium"]
 print(binary_search(materials, "Steel"))
