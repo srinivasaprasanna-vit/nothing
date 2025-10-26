@@ -12,5 +12,4 @@ def binary_search(arr, key):
     return False
 
 materials = ["Aluminum", "Brass", "Copper", "Steel", "Titanium"]
-
 print(binary_search(materials, "Steel"))
