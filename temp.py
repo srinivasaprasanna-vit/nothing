@@ -1,3 +1,5 @@
+'''
+
 t=input()
 
 l=[]
@@ -23,3 +25,9 @@ for i in a:
     if i!=" ":
         l.append(int(i))
 print("Final List: ",l)
+
+
+'''
+
+print('HI znibsiw',end='! ')
+print('Welcome to Python programming. ')
